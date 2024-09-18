@@ -1,0 +1,22 @@
+package exercise1;
+
+public class Driver {
+
+	public static void main(String[] args) {
+		// create a Singer object with the no argument constructor:
+		Singers singer1 = new Singers();
+		singer1.printSingers();
+		// this will print all instance variables with default values (0, null, null, null, 0)
+
+		// set the values of each instance variable with the help of setters:
+		singer1.setId(01);
+		singer1.setName("Lady Gaga");
+		singer1.setAddress("123 Hollywood Blvd");
+		singer1.setDateOfBirth("March 28, 1986");
+		singer1.setAlbumsPublished(5);
+		
+		// display the object with the new values:
+		singer1.printSingers();
+	}
+
+}
