@@ -1,0 +1,35 @@
+package student;
+
+public class Student {
+
+	private int StudentID;
+	private String studentName;
+	private double mark1, mark2, mark3, avgMark;
+	
+	// default constructor to initialize 3 marks 
+	public Student() 
+	{
+		mark1 = 0.0;
+		mark2 = 0.0;
+		mark3 = 0.0;
+	}
+	
+	//overloaded constructor
+	public Student(int sid, String sName, double smark1, double smark2, double smark3)
+	{
+		
+	}
+	
+	// method to calculate and store the average 
+	public void printMarks()
+	{
+		System.out.println("Mark 1 "+ mark1); 
+		System.out.println("Mark 2 "+ mark2); 
+		System.out.println("Mark 3 "+ mark3); 
+		System.out.println("Student ID" + StudentID); 
+		System.out.println("Name" + studentName); 
+	}
+	
+	
+	
+}

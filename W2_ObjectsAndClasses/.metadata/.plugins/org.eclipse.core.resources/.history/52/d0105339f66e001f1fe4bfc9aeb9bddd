@@ -1,0 +1,21 @@
+package student;
+
+public class Student {
+
+	private int StudentID;
+	private String studentName;
+	private double mark1, mark2, mark3, avgMark;
+	
+	// include 
+	
+	// method to calculate and store the average 
+	public void printMarks()
+	{
+		System.out.println("Mark 1 "+ mark1); 
+		System.out.println("Mark 2 "+ mark2); 
+		System.out.println("Mark 3 "+ mark3); 
+	}
+	
+	
+	
+}

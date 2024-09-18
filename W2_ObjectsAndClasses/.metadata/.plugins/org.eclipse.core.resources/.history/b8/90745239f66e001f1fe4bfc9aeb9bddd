@@ -1,0 +1,13 @@
+package student;
+
+public class StudentProject {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//create Object
+		Student s1 = new Student(); 
+		s1.printMarks();
+	}
+
+}
